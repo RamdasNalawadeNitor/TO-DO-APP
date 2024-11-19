@@ -1,0 +1,27 @@
+2024-11-19T12:18:05.678+05:30  INFO 20176 --- [ToDoList] [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 20176 (D:\Gordian\To_Do_List\Backend\ToDoList\demo\target\classes started by ramdas.nalawade in D:\Gordian\To_Do_List\Backend\ToDoList)
+2024-11-19T12:18:05.697+05:30  INFO 20176 --- [ToDoList] [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-11-19T12:18:06.944+05:30  INFO 20176 --- [ToDoList] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-19T12:18:07.007+05:30  INFO 20176 --- [ToDoList] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67 ms. Found 2 JPA repository interfaces.
+2024-11-19T12:18:08.386+05:30  INFO 20176 --- [ToDoList] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2024-11-19T12:18:08.417+05:30  INFO 20176 --- [ToDoList] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-19T12:18:08.417+05:30  INFO 20176 --- [ToDoList] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-11-19T12:18:08.542+05:30  INFO 20176 --- [ToDoList] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-19T12:18:08.542+05:30  INFO 20176 --- [ToDoList] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2794 ms
+2024-11-19T12:18:09.134+05:30  INFO 20176 --- [ToDoList] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-19T12:18:09.448+05:30  INFO 20176 --- [ToDoList] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-11-19T12:18:09.574+05:30  INFO 20176 --- [ToDoList] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-19T12:18:10.185+05:30  INFO 20176 --- [ToDoList] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-19T12:18:10.232+05:30  INFO 20176 --- [ToDoList] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-19T12:18:10.892+05:30  INFO 20176 --- [ToDoList] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 34094d0e-563d-42cc-a679-4f83c35932b2
+2024-11-19T12:18:10.892+05:30  INFO 20176 --- [ToDoList] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-19T12:18:10.958+05:30  WARN 20176 --- [ToDoList] [main] org.hibernate.orm.deprecation            : HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-19T12:18:12.266+05:30  INFO 20176 --- [ToDoList] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-19T12:18:13.508+05:30  INFO 20176 --- [ToDoList] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-19T12:18:14.304+05:30  INFO 20176 --- [ToDoList] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-11-19T12:18:14.916+05:30  INFO 20176 --- [ToDoList] [main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-11-19T12:18:14.916+05:30  WARN 20176 --- [ToDoList] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-11-19T12:18:16.351+05:30  INFO 20176 --- [ToDoList] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2024-11-19T12:18:16.367+05:30  INFO 20176 --- [ToDoList] [main] com.example.demo.DemoApplication         : Started DemoApplication in 11.32 seconds (process running for 12.144)
+2024-11-19T12:19:47.320+05:30  INFO 20176 --- [ToDoList] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-19T12:19:47.338+05:30  INFO 20176 --- [ToDoList] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-19T12:19:47.340+05:30  INFO 20176 --- [ToDoList] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
